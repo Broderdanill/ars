@@ -2,15 +2,15 @@ char-set: UTF-8
 #
 #  File Exported by AR System Version Control
 #
-#  File exported Sat Mar 09 07:33:39 UTC 2024
+#  File exported Sat Mar 09 07:39:49 UTC 2024
 #
 begin escalation
    name           : AR_GIT_COMMIT_DATA:Esc Set Attachment To Character SetF
    guid           : 2d15422dd535a54c10ace9719781e409
-   timestamp      : 1709969619
+   timestamp      : 1709969989
    owner          : u0017931
    last-changed   : u0017931
-   enable         : 1
+   enable         : 0
    escl-tmType    : 1
    export-version : 12
    escl-interval  : 60

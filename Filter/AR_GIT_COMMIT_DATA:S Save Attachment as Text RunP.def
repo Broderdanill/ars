@@ -2,12 +2,12 @@ char-set: UTF-8
 #
 #  File Exported by AR System Version Control
 #
-#  File exported Sat Mar 09 07:11:49 UTC 2024
+#  File exported Sat Mar 09 07:26:24 UTC 2024
 #
 begin filter
    name           : AR_GIT_COMMIT_DATA:S Save Attachment as Text RunP
    guid           : 3b1afbe4d0a6be0cca1b98a10f5f3b54
-   timestamp      : 1709968309
+   timestamp      : 1709969184
    owner          : u0017931
    last-changed   : u0017931
    filter-op      : 4
@@ -21,7 +21,10 @@ begin filter
       command     : mkdir -p /tmp/ar_git
    }
    action {
-      command     : PERFORM-ACTION-SAVE-ATTACHMENT 1224030811 "/tmp/ar_git/$379$.def"
+      command     : PERFORM-ACTION-SAVE-ATTACHMENT 1224030811 /tmp/ar_git/$379$.def
+   }
+   action {
+      set-field   : 0\1224030899\103\25\cat /tmp/ar_git/$379$.def\
    }
    object-prop    : 2\90015\2\4\90016\4\1\1\
    errhandler-opt : 0

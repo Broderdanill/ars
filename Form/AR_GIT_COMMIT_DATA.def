@@ -1,0 +1,392 @@
+char-set: UTF-8
+#
+#  File Exported by AR System Version Control
+#
+#  File exported Sat Mar 09 07:23:46 UTC 2024
+#
+begin schema
+   name           : AR_GIT_COMMIT_DATA
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 18
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   default-vui    : Default Administrator View__c
+   num-vuis       : 1
+   export-version : 12
+   schema-type    : 1
+   next-field-id  : 1224030900
+   index          : 1\379\1\0
+   object-prop    : 3\0\0\90016\4\1\1\90015\2\4\
+   assoc-to-follow-type : archive
+  assoc-to-follow : 
+   assoc-sel-type : 0
+     assoc-list   : 0\
+   schema-row-identifier : 6906ca826cccbef8b5ab1731c6a0bed3
+vui  {
+   id             : 536870912
+   name           : Default Administrator View__c
+   label          : Default Administrator View__c
+   timestamp      : 1709933279
+   vui-locale     : 
+   vui-type       : 1
+   owner          : u0017931
+   last-changed   : u0017931
+   display-prop   : 1\20\4\29\Default Administrator View__c\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1
+   name           : Request ID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   length-units   : 0
+   maxlength      : 15
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\1
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\14\3\41\2\16085\48000\38919\50100\4\6\1\7\40\2147483640\20\4\10\Request ID\21\41\2\0\400\7086\2100\27\8\16\28\6\4\29\6\1\60\40\1\65\41\2\0\0\0\&
+ display-instance : 0\143\40\4294967295\151\41\2\7649\0\22834\2100\170\40\0\231\6\1\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 2
+   name           : Submitter
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : $-1$
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\17210\50500\41844\52600\4\6\1\7\40\2147483641\20\4\9\Submitter\21\41\2\0\400\5961\2100\27\8\16\28\6\4\29\6\1\60\40\1\61\40\30\65\41\2&
+ display-instance : \0\0\0\0\66\41\2\22272\0\24634\2100\143\40\4294967295\151\41\2\6524\0\21709\2100\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 3
+   name           : Create Date
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\15748\53000\41844\55100\4\6\1\7\40\2147483642\20\4\11\Create Date\21\41\2\0\400\7424\2100\27\8\16\28\6\4\29\6\1\60\40\1\61\40\23\65\4&
+ display-instance : 1\2\0\0\0\0\66\41\2\23734\0\26096\2100\143\40\4294967295\151\41\2\7986\0\23171\2100\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 4
+   name           : Assigned To
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\16197\55500\41843\57600\4\6\1\7\40\2147483643\20\4\11\Assigned To\21\41\2\0\400\6974\2100\27\8\16\28\6\4\29\6\1\60\40\1\61\40\30\65\4&
+ display-instance : 1\2\0\0\0\0\66\41\2\23284\0\25646\2100\143\40\4294967295\151\41\2\7536\0\22721\2100\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 5
+   name           : Last Modified By
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\13385\58000\41843\60100\4\6\1\7\40\2147483644\20\4\16\Last Modified By\21\41\2\0\400\9786\2100\27\8\16\28\6\4\29\6\1\60\40\1\61\40\33&
+ display-instance : \65\41\2\0\0\0\0\66\41\2\26096\0\28458\2100\143\40\4294967295\151\41\2\10348\0\25533\2100\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 6
+   name           : Modified Date
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\14735\60500\41844\62600\4\6\1\7\40\2147483645\20\4\13\Modified Date\21\41\2\0\400\8436\2100\27\8\16\28\6\4\29\6\1\60\40\1\61\40\23\65&
+ display-instance : \41\2\0\0\0\0\66\41\2\24746\0\27108\2100\143\40\4294967295\151\41\2\8998\0\24183\2100\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 7
+   name           : Status
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   enum-value     : New
+   enum-value     : Commited
+   default        : 0
+   permission     : 4\2
+   permission     : 3\1
+ display-instance : 536870912\17\3\41\2\6074\1500\22496\3300\4\6\1\7\40\2147483646\20\4\6\Status\21\41\2\0\400\4161\1800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\0\64\6\1\65\41\2&
+ display-instance : \0\0\0\0\143\40\4294967295\151\41\2\4724\400\16422\2200\170\40\0\230\4\18\2\0\New\1\Commited\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 8
+   name           : Short Description
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : x2
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\16\3\41\2\2024\5300\31270\7400\4\6\1\7\40\2147483647\20\4\17\Short Description\21\41\2\0\400\10573\2100\27\8\16\28\6\4\29\6\1\60\40\1\61\40\50\&
+ display-instance : 65\41\2\0\0\0\0\66\41\2\26884\0\29246\2100\143\40\4294967295\151\41\2\11136\0\26321\2100\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 15
+   name           : Status History
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1709933279
+   owner          : u0017931
+   last-changed   : u0017931
+   permission     : 4\1
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 16
+   name           : Notifier Listening
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1709933279
+   owner          : u0017931
+   last-changed   : u0017931
+   enum-value     : Not Listening
+   enum-value     : Listening
+   default        : 0
+   permission     : 4\2
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 379
+   name           : Record ID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1709933279
+   owner          : u0017931
+   last-changed   : u0017931
+   length-units   : 0
+   maxlength      : 128
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 3\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1224030802
+   name           : SavePath
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   length-units   : 0
+   maxlength      : 0
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\34\3\41\2\45669\100\74690\2200\4\6\1\5\6\2\7\40\2147483649\14\40\1\20\4\8\SavePath\21\41\2\0\400\10348\2100\60\40\1\66\41\2\26659\0\29021\2100\&
+ display-instance : 143\40\4294967295\151\41\2\10911\0\26096\2100\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\5302\&
+ display-instance : 6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5379\6\0\5380\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1224030803
+   name           : CommitID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   length-units   : 0
+   maxlength      : 128
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\34\3\41\2\1687\9200\30933\11300\4\6\1\5\6\2\7\40\2147483650\14\40\1\20\4\8\CommitID\21\41\2\0\400\10573\2100\60\40\1\66\41\2\26884\0\29246\2100&
+ display-instance : \143\40\4294967295\151\41\2\11136\0\26321\2100\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\5302&
+ display-instance : \6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5379\6\0\5380\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1224030804
+   name           : ObjectName
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   length-units   : 0
+   maxlength      : 0
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\34\3\41\2\1687\13600\30933\15700\4\6\1\5\6\2\7\40\2147483651\14\40\1\20\4\10\ObjectName\21\41\2\0\400\10573\2100\60\40\1\66\41\2\26884\0\29246\&
+ display-instance : 2100\143\40\4294967295\151\41\2\11136\0\26321\2100\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\&
+ display-instance : 5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5379\6\0\5380\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1224030806
+   name           : User
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\34\3\41\2\1687\11400\30933\13500\4\6\1\5\6\2\7\40\2147483652\14\40\1\20\4\4\User\21\41\2\0\400\10573\2100\60\40\1\66\41\2\26884\0\29246\2100\14&
+ display-instance : 3\40\4294967295\151\41\2\11136\0\26321\2100\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5296\4\0\\5302\6\&
+ display-instance : 0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5379\6\0\5380\4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1224030810
+   name           : attachment
+   datatype       : 37
+   fieldtype      : 0
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+ display-instance : 536870912\21\3\41\2\44319\3600\83239\14100\4\6\1\7\40\2147483653\14\40\1\20\4\18\Attachment Pool__c\143\40\4294967295\170\40\0\232\4\3\Add\233\4\6\Delete&
+ display-instance : \234\4\7\Display\235\4\4\Save\236\4\11\Attach Name\237\4\9\File Name\238\4\8\Max Size\271\4\8\Deselect\310\6\0\5233\4\0\\5234\4\4\left\5285\2\0\5286\6\1\&
+ display-instance : 5335\4\4\HIDE\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1224030811
+   name           : at_def
+   datatype       : 11
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1709934572
+   owner          : u0017931
+   last-changed   : u0017931
+   maxsize        : 0
+   attachtype     : 1
+   fulltext-optns : 0
+ display-instance : 536870912\7\3\41\2\0\0\10011\0\4\6\1\20\4\6\at_def\143\40\1\170\40\1224030810\5233\4\0\\5234\4\4\left\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1224030899
+   name           : Definition
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1709969026
+   owner          : u0017931
+   last-changed   : u0017931
+   length-units   : 0
+   maxlength      : 0
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+ display-instance : 536870912\38\3\41\2\1687\17600\80877\44400\4\6\1\5\6\2\7\40\2147483648\14\40\1\20\4\10\Definition\21\41\2\0\400\10573\2100\60\40\20\66\41\2\76827\0\79189&
+ display-instance : \2100\67\6\0\143\40\4294967295\151\41\2\11136\0\76265\26800\170\40\0\231\6\2\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\336\2\0\5116\6\0\5233\4\0\\5234\4\&
+ display-instance : 4\left\5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5379\6\0\5380&
+ display-instance : \4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+end

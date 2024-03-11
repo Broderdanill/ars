@@ -1,1 +1,21 @@
-[{"messageType":"ERROR","messageText":"Field does not exist on current form","messageAppendedText":"schema AR System Version Control: Object Modification Log, fieldName Object definition","messageNumber":314}]
+char-set: UTF-8
+#
+#  File Exported by AR System Version Control
+#
+#  File exported Mon Mar 11 09:41:08 UTC 2024
+#
+begin container
+   name           : AR_GIT
+   type           : 2
+   num-references : 1
+   timestamp      : 1710150066
+   owner          : u0017931
+   last-changed   : u0017931
+   export-version : 12
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\6\AR_GIT\
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+end

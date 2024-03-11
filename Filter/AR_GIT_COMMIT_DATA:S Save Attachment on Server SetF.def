@@ -1,1 +1,26 @@
-[{"messageType":"ERROR","messageText":"Field does not exist on current form","messageAppendedText":"schema AR System Version Control: Object Modification Log, fieldName Object definition","messageNumber":314}]
+char-set: UTF-8
+#
+#  File Exported by AR System Version Control
+#
+#  File exported Sat Mar 09 07:38:10 UTC 2024
+#
+begin filter
+   name           : AR_GIT_COMMIT_DATA:S Save Attachment on Server SetF
+   guid           : 3b1afbe4d0a6be0cca1b98a10f5f3b54
+   timestamp      : 1709969890
+   owner          : u0017931
+   last-changed   : u0017931
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : AR_GIT_COMMIT_DATA
+   export-version : 12
+   filter-query   : 1\4\1\99\1224030901\2\6\0\4\6\99\1224030811\2\0\
+   action {
+      set-field   : 0\1224030899\103\65\PERFORM-ACTION-SAVE-ATTACHMENT 1224030811 "/tmp/ar_git/$379$.def"\
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+   errhandler-opt : 0
+   errhandler-name: 
+end

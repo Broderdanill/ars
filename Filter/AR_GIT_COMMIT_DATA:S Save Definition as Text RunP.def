@@ -1,1 +1,28 @@
-[{"messageType":"ERROR","messageText":"Field does not exist on current form","messageAppendedText":"schema AR System Version Control: Object Modification Log, fieldName Object definition","messageNumber":314}]
+char-set: UTF-8
+#
+#  File Exported by AR System Version Control
+#
+#  File exported Fri Mar 08 21:53:34 UTC 2024
+#
+begin filter
+   name           : AR_GIT_COMMIT_DATA:S Save Definition as Text RunP
+   guid           : 75e1711334c85830db6e50b3ecbdad53
+   timestamp      : 1709934814
+   owner          : u0017931
+   last-changed   : u0017931
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : AR_GIT_COMMIT_DATA
+   export-version : 12
+   action {
+      push-field  : 0\1\@\13\AR_GIT_COMMIT\1\2\1\4\1\1\2\99\1224030806\4\1\1\7\2\6\0\4\3\102\1\@\1\@\1\1224030806\0\1\4\
+   }
+   action {
+      set-field   : 0\1224030803\101\1\13\
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+   errhandler-opt : 0
+   errhandler-name: 
+end

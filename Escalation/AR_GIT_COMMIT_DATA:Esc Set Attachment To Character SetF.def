@@ -1,1 +1,24 @@
-[{"messageType":"ERROR","messageText":"Field does not exist on current form","messageAppendedText":"schema AR System Version Control: Object Modification Log, fieldName Object definition","messageNumber":314}]
+char-set: UTF-8
+#
+#  File Exported by AR System Version Control
+#
+#  File exported Sat Mar 09 07:33:39 UTC 2024
+#
+begin escalation
+   name           : AR_GIT_COMMIT_DATA:Esc Set Attachment To Character SetF
+   guid           : 2d15422dd535a54c10ace9719781e409
+   timestamp      : 1709969619
+   owner          : u0017931
+   last-changed   : u0017931
+   enable         : 1
+   escl-tmType    : 1
+   export-version : 12
+   escl-interval  : 60
+   wk-conn-type   : 1
+   schema-name    : AR_GIT_COMMIT_DATA
+   escl-query     : 1\4\1\1\1224030899\2\0\4\6\1\1224030811\2\0\
+   action {
+      set-field   : 0\1224030901\101\6\0\
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+end

@@ -2,14 +2,14 @@ char-set: UTF-8
 #
 #  File Exported by AR System Version Control
 #
-#  File exported Sun Mar 10 17:06:16 UTC 2024
+#  File exported Thu Mar 14 20:13:32 UTC 2024
 #
 begin schema
    name           : AR_GIT_CONFIG
    core-version   : 2
    upgrade-version: 0
    num-fields     : 18
-   timestamp      : 1710090376
+   timestamp      : 1710447212
    owner          : u0017931
    last-changed   : u0017931
    default-vui    : Default Administrator View__c
@@ -19,7 +19,7 @@ begin schema
    next-field-id  : 1224031021
    index          : 1\379\1\0
    get-list-flds  : 6\1\15\0\\1224031002\25\0\\1224031001\35\0\\1224031009\15\0\\1224031008\20\0\\7\15\0\
-   object-prop    : 3\0\0\90015\2\4\90016\4\1\1\
+   object-prop    : 4\0\0\90016\4\1\1\90015\2\4\90002\4\6\AR_GIT\
    assoc-to-follow-type : archive
   assoc-to-follow : 
    assoc-sel-type : 0
@@ -368,7 +368,7 @@ field {
    fieldtype      : 1
    create-mode    : 2
    option         : 2
-   timestamp      : 1710090376
+   timestamp      : 1710447212
    owner          : u0017931
    last-changed   : u0017931
    length-units   : 0
@@ -377,9 +377,9 @@ field {
    menu-style     : 2
    qbe-match-op   : 1
    fulltext-optns : 0
- display-instance : 536870912\35\4\0\3\41\2\58042\20200\109898\27500\4\6\1\5\6\2\7\40\2147483654\14\40\1\20\4\15\QUAL_URLENCODED\21\41\2\0\400\12710\7300\60\40\5\66\41\2\494&
- display-instance : 93\0\51855\2100\143\40\4294967295\151\41\2\13273\0\48931\7300\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left&
- display-instance : \5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5379\6\0\5380\4\0\\
+ display-instance : 536870912\34\3\41\2\57705\21200\109561\28500\4\6\1\5\6\2\7\40\2147483654\14\40\1\20\4\15\QUAL_URLENCODED\21\41\2\0\400\12710\7300\60\40\5\66\41\2\49493\0&
+ display-instance : \51855\2100\143\40\4294967295\151\41\2\13273\0\48931\7300\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\529&
+ display-instance : 6\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5373\6\0\5375\6\0\5378\4\0\\5379\6\0\5380\4\0\\
    object-prop    : 2\90016\4\1\1\90015\2\4\
 }
 end

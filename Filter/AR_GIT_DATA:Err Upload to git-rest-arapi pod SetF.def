@@ -1,0 +1,25 @@
+char-set: UTF-8
+#
+#  File Exported by AR System Version Control
+#
+#  File exported Tue Mar 12 21:16:43 UTC 2024
+#
+begin filter
+   name           : AR_GIT_DATA:Err Upload to git-rest-arapi pod SetF
+   guid           : d30d029ee26a16d98be095d5b5538e8c
+   timestamp      : 1710278203
+   owner          : u0017931
+   last-changed   : u0017931
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : AR_GIT_DATA
+   export-version : 12
+   action {
+      set-field   : 0\8\104\1\104\1\104\1\101\4\7\Error: \101\1\43\101\4\15\ Error-number: \101\1\42\
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+   errhandler-opt : 0
+   errhandler-name: 
+end

@@ -1,0 +1,31 @@
+char-set: UTF-8
+#
+#  File Exported by AR System Version Control
+#
+#  File exported Thu Mar 14 07:55:40 UTC 2024
+#
+begin filter
+   name           : AR_GIT_DATA:S Upload to git-rest-arapi pod SetF
+   guid           : 41276a96690a40b6f2daaf1e3749782b
+   timestamp      : 1710402940
+   owner          : u0017931
+   last-changed   : u0017931
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : AR_GIT_DATA
+   export-version : 12
+   filter-query   : 4\1\99\7\2\6\0\
+   action {
+      set-field   : 0\8\101\4\2\OK\
+   }
+   action {
+      set-field   : 0\8\108\24\ARSYS.ARF.RESTWEBSERVICE\12\101\4\32\http://ar-stream-to-git-svc:3000\101\4\26\ATTACHMENTDATA(1224030811)\101\4\4\POST\101\4\6\NOAUTH\101\4\0\\
+      set-field   : 0\101\4\95\Content-Type#COLSEP#multipart/form-data;boundary=file#ARSEP#Connection#COLSEP#Keep-Alive#ARSEP#\101\4\16\application/json\101\4\0\\101\4\0\\101
+      set-field   : 0\\4\0\\101\4\0\\101\4\0\\8\
+   }
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   errhandler-opt : 0
+   errhandler-name: AR_GIT_DATA:Err Upload to git-rest-arapi pod SetF
+end

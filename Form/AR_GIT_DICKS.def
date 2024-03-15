@@ -2,14 +2,14 @@ char-set: UTF-8
 #
 #  File Exported by AR System Version Control
 #
-#  File exported Mon Mar 11 12:22:41 UTC 2024
+#  File exported Thu Mar 14 21:47:02 UTC 2024
 #
 begin schema
    name           : AR_GIT_DICKS
    core-version   : 2
    upgrade-version: 0
    num-fields     : 12
-   timestamp      : 1710159761
+   timestamp      : 1710452822
    owner          : u0017931
    last-changed   : u0017931
    default-vui    : Default Administrator View__c
@@ -18,7 +18,7 @@ begin schema
    schema-type    : 1
    next-field-id  : 536870914
    index          : 1\379\1\0
-   object-prop    : 3\0\0\90015\2\4\90016\4\1\1\
+   object-prop    : 3\0\0\90016\4\1\1\90015\2\4\
    assoc-to-follow-type : archive
   assoc-to-follow : 
    assoc-sel-type : 0
@@ -256,7 +256,7 @@ field {
    fieldtype      : 1
    create-mode    : 2
    option         : 2
-   timestamp      : 1710159761
+   timestamp      : 1710452822
    owner          : u0017931
    last-changed   : u0017931
    length-units   : 0
@@ -265,9 +265,9 @@ field {
    menu-style     : 2
    qbe-match-op   : 1
    fulltext-optns : 0
- display-instance : 536870912\37\4\0\3\41\2\50281\7000\79302\9100\4\6\1\5\6\2\7\40\2147483648\14\40\1\20\4\18\Character Field__c\21\41\2\0\400\10348\2100\60\40\1\66\41\2\266&
- display-instance : 59\0\29021\2100\143\40\4294967295\151\41\2\10911\0\26096\2100\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left&
- display-instance : \5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5379\6\0\5380\4\0\\
+ display-instance : 536870912\36\3\41\2\50506\22600\79527\24700\4\6\1\5\6\2\7\40\2147483648\14\40\1\20\4\18\Character Field__c\21\41\2\0\400\10348\2100\60\40\1\66\41\2\26659&
+ display-instance : \0\29021\2100\143\40\4294967295\151\41\2\10911\0\26096\2100\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\5233\4\0\\5234\4\4\left\5&
+ display-instance : 296\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5379\6\0\5380\4\0\\
    object-prop    : 2\90016\4\1\1\90015\2\4\
 }
 end

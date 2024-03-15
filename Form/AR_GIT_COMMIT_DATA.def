@@ -2,22 +2,24 @@ char-set: UTF-8
 #
 #  File Exported by AR System Version Control
 #
-#  File exported Sat Mar 09 07:23:46 UTC 2024
+#  File exported Fri Mar 15 00:21:51 UTC 2024
 #
 begin schema
    name           : AR_GIT_COMMIT_DATA
    core-version   : 2
    upgrade-version: 0
-   num-fields     : 18
-   timestamp      : 1709969026
+   num-fields     : 19
+   timestamp      : 1710462111
    owner          : u0017931
    last-changed   : u0017931
    default-vui    : Default Administrator View__c
    num-vuis       : 1
    export-version : 12
    schema-type    : 1
-   next-field-id  : 1224030900
+   next-field-id  : 1224030902
    index          : 1\379\1\0
+   get-list-flds  : 3\379\20\0\\1224030804\50\0\\7\15\0\
+   sort-list      : 1\7\1
    object-prop    : 3\0\0\90016\4\1\1\90015\2\4\
    assoc-to-follow-type : archive
   assoc-to-follow : 
@@ -43,7 +45,7 @@ field {
    fieldtype      : 1
    create-mode    : 2
    option         : 3
-   timestamp      : 1709969026
+   timestamp      : 1709969295
    owner          : u0017931
    last-changed   : u0017931
    length-units   : 0
@@ -55,7 +57,7 @@ field {
    permission     : 0\1
    permission     : 4\1
    permission     : 3\1
- display-instance : 536870912\14\3\41\2\16085\48000\38919\50100\4\6\1\7\40\2147483640\20\4\10\Request ID\21\41\2\0\400\7086\2100\27\8\16\28\6\4\29\6\1\60\40\1\65\41\2\0\0\0\&
+ display-instance : 536870912\14\3\41\2\16760\47400\39594\49500\4\6\1\7\40\2147483640\20\4\10\Request ID\21\41\2\0\400\7086\2100\27\8\16\28\6\4\29\6\1\60\40\1\65\41\2\0\0\0\&
  display-instance : 0\143\40\4294967295\151\41\2\7649\0\22834\2100\170\40\0\231\6\1\
    object-prop    : 2\90016\4\1\1\90015\2\4\
 }
@@ -66,7 +68,7 @@ field {
    fieldtype      : 1
    create-mode    : 1
    option         : 1
-   timestamp      : 1709969026
+   timestamp      : 1709970020
    owner          : u0017931
    last-changed   : u0017931
    length-units   : 0
@@ -78,7 +80,7 @@ field {
    default        : $-1$
    permission     : 4\1
    permission     : 3\1
- display-instance : 536870912\16\3\41\2\17210\50500\41844\52600\4\6\1\7\40\2147483641\20\4\9\Submitter\21\41\2\0\400\5961\2100\27\8\16\28\6\4\29\6\1\60\40\1\61\40\30\65\41\2&
+ display-instance : 536870912\16\3\41\2\16422\50400\41056\52500\4\6\1\7\40\2147483641\20\4\9\Submitter\21\41\2\0\400\5961\2100\27\8\16\28\6\4\29\6\1\60\40\1\61\40\30\65\41\2&
  display-instance : \0\0\0\0\66\41\2\22272\0\24634\2100\143\40\4294967295\151\41\2\6524\0\21709\2100\170\40\0\231\6\0\
    object-prop    : 2\90016\4\1\1\90015\2\4\
 }
@@ -387,6 +389,21 @@ field {
  display-instance : \2100\67\6\0\143\40\4294967295\151\41\2\11136\0\76265\26800\170\40\0\231\6\2\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\336\2\0\5116\6\0\5233\4\0\\5234\4\&
  display-instance : 4\left\5296\4\0\\5302\6\0\5314\6\0\5315\2\0\5345\4\0\\5347\4\0\\5352\2\0\5353\4\0\\5354\2\0\5368\4\0\\5369\4\0\\5373\6\0\5375\6\0\5378\4\0\\5379\6\0\5380&
  display-instance : \4\0\\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1224030901
+   name           : zzSaveAttachmentAsText
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1710462111
+   owner          : u0017931
+   last-changed   : u0017931
+   enum-value     : Yes
+ display-instance : 536870912\20\3\41\2\45556\15500\62878\17300\4\6\1\5\6\2\7\40\2147483654\14\40\1\20\4\20\SaveAttachmentAsText\21\41\2\0\400\12935\1800\64\6\2\143\40\42949&
+ display-instance : 67295\151\41\2\13498\400\17322\2200\170\40\0\230\4\7\1\0\Yes\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5233\4\0\\5234\4\4\left\5345\4\0\\5347\4\0\\
    object-prop    : 2\90016\4\1\1\90015\2\4\
 }
 end

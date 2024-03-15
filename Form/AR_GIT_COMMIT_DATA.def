@@ -2,14 +2,14 @@ char-set: UTF-8
 #
 #  File Exported by AR System Version Control
 #
-#  File exported Fri Mar 15 15:00:31 UTC 2024
+#  File exported Fri Mar 15 16:11:31 UTC 2024
 #
 begin schema
    name           : AR_GIT_COMMIT_DATA
    core-version   : 2
    upgrade-version: 0
    num-fields     : 20
-   timestamp      : 1710514830
+   timestamp      : 1710519091
    owner          : u0017931
    last-changed   : u0017931
    default-vui    : Default Administrator View__c
@@ -165,16 +165,18 @@ field {
    fieldtype      : 1
    create-mode    : 2
    option         : 1
-   timestamp      : 1710513934
+   timestamp      : 1710519091
    owner          : u0017931
    last-changed   : u0017931
-   enum-value     : New
-   enum-value     : Commited
+   enum-value-num : 0\New
+   enum-value-num : 5\Tagged
+   enum-value-num : 7\Transfering
+   enum-value-num : 10\Commited
    default        : 0
    permission     : 4\2
    permission     : 3\1
  display-instance : 536870912\17\3\41\2\2699\6200\48143\8000\4\6\1\7\40\2147483646\20\4\6\Status\21\41\2\0\400\12373\1800\27\8\16\28\6\4\29\6\1\60\40\1\61\40\0\64\6\1\65\41\&
- display-instance : 2\0\0\0\0\143\40\4294967295\151\41\2\12935\400\45443\2200\170\40\0\230\4\18\2\0\New\1\Commited\231\6\0\
+ display-instance : 2\0\0\0\0\143\40\4294967295\151\41\2\12935\400\45443\2200\170\40\0\230\4\42\4\0\New\5\Tagged\7\Transfering\10\Commited\231\6\0\
    object-prop    : 2\90016\4\1\1\90015\2\4\
 }
 field {

@@ -1,0 +1,17 @@
+char-set: UTF-8
+#
+#  File Exported by AR System Version Control
+#
+#  File exported Fri Mar 15 19:52:41 UTC 2024
+#
+begin container
+   name           : AR_GIT_ADMIN:G Commit
+   type           : 1
+   num-references : 0
+   timestamp      : 1710532361
+   owner          : u0017931
+   owning-obj     : 1\2\12\AR_GIT_ADMIN\
+   last-changed   : u0017931
+   export-version : 12
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+end
